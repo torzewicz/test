@@ -20,7 +20,7 @@ public class TestApplication {
 
     @GetMapping("/{name}")
     public String helloGet(@PathVariable String name) {
-        return "Czesc " + name;
+        return "Czesc " + name + " co tam?";
     }
 
     @PostMapping
